@@ -1,0 +1,275 @@
+/* background: #212121; Стиль основного цвета */
+
+:root {
+    --logo-accent-color: #000000;
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --button-color: #188ce8;
+    --accent-color: #2196F3;
+    --background-color-white: #FFFFFF;
+    --background-color-bg: #2F303A;
+    --background-color-box: #E5E5E5;
+    --background-color-section-bg: #F5F4FA;
+    --background-color-footer: #2F303A;
+    --container-bg-2: #EEEEEE;
+}
+
+.body {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color-white);
+    color: var(--primary-text-color)
+}
+
+.list {
+list-style: none;
+}
+
+/* Top line bg */
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
+}
+
+.logo-accent {
+    color: var(--logo-accent-color)
+}
+
+.site-nav .link {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .link-current {
+    color: var(--accent-color)
+}
+
+/* nav */
+
+.auth-nav .contacts {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color)
+}
+
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus {
+    color: var(--accent-color)
+}
+
+/* Bg */
+
+.section {
+    background-color: var(--background-color-bg)
+}
+
+.section .section-title {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-color-white)
+}
+
+.button {
+    cursor: pointer;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--background-color-white);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--button-color);
+}
+
+/* Bg-2 */
+
+.feature .feature-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+
+.feature-paragraph {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+
+/* What are we doing */
+
+.box {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color)
+}
+
+.card-bg {
+    background: var(--background-color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.worker {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color)
+}
+
+.direction {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+
+/* Section bg */
+
+.team {
+    background-color: var(--background-color-section-bg)
+}
+
+/* footer */
+
+.adrees {
+    list-style: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--background-color-white)
+}
+
+.section .contacts {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color)
+}
+
+.section .contacts:hover,
+.section .contacts:focus {
+    color: var(--accent-color)
+}
+
+/* portfolio page button */
+
+.button-pt {
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    background-color: var(--background-color-box)
+}
+
+.button-pt .primary {
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--background-color-white);
+    background-color: var(--accent-color);
+}
+
+.button-pt .secondary {
+    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color: var(--background-color-section-bg);
+}
+
+.button-pt .secondary:hover,
+.button-pt .secondary:focus {
+    color: var(--background-color-white);
+    background-color: var(--accent-color);
+}
+
+/* container bg-2 */
+
+.portfolio-bg {
+    background-color: var(--background-color-box);
+}
+
+.container-bg {
+    background: var(--background-color-white);
+    border: 1px solid var(--container-bg-2);
+}
+
+.projects {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color)
+}
+
+.description {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
