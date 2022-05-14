@@ -38,12 +38,27 @@ list-style: none;
     color: var(--accent-color)
 }
 
-.link-accent {
+.link .link-accent {
     color: var(--logo-accent-color)
 }
 
+.site-nav .link-current {
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+
+.site-nav .link-current:hover,
+.site-nav .link-current:focus {
+    color: var(--accent-color)
+}
 
 .site-nav .link-secondary {
+    text-decoration: none;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -57,18 +72,10 @@ list-style: none;
     color: var(--accent-color)
 }
 
-.site-nav .link-current {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--accent-color)
-}
-
 /* nav */
 
 .auth-nav .contacts {
+    text-decoration: none;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -156,7 +163,7 @@ list-style: none;
     border-radius: 0px 0px 4px 4px;
 }
 
-.worker {
+.workers {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -166,6 +173,7 @@ list-style: none;
 }
 
 .direction {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     /* text-align: center; */
@@ -181,6 +189,10 @@ list-style: none;
 
 /* footer */
 
+.link .link-footer {
+    color: var(--background-color-white);
+}
+
 .adrees {
     list-style: none;
     font-family: inherit;
@@ -192,6 +204,7 @@ list-style: none;
     }
 
 .section .contacts {
+    text-decoration: none;
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -258,3 +271,14 @@ list-style: none;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+
+/* .button-pt {
+    margin: 0;
+    padding: 4px;
+}
+
+.button-pt li {
+    display: inline;
+    margin-right: 5px;
+    padding: 0px;
+} */
