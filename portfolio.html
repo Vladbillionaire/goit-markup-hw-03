@@ -7,174 +7,214 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <!-- portfolio-header -->
+  <!-- Header-portfolio -->
 
   <body class="body">
-    <header>
-      <a class="link" lang="en" href="./index.html"
-        >Web<span class="link-accent">Studio</span></a
-      >
-      <nav>
-        <ul class="site-nav list">
-          <li><a class="link-secondary" href="./index.html">Студия</a></li>
-          <li>
-            <a class="link-current" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li><a class="link-secondary" href="">Контакты</a></li>
-        </ul>
-      </nav>
+      <header class="header">
+        <div class="container">
+         <nav class="main-nav">
+            <a class="logo" href="./index.html" lang="en" aria-label="Главный логотип">
+              Web<span class="logo-accent">Studio</span>
+              </a>
+            <ul class="list">
+               <li class="nav-item">
+                  <a class="nav-link " href="./index.html">Студия</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link current" href="./portfolio.html"
+                     >Портфолио</a
+                  >
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="">Контакты</a>
+               </li>
+            </ul>
+         </nav>
 
-      <!-- nav-2 -->
+            <!-- Link -->
 
-      <ul class="auth-nav list">
-        <li>
-          <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
-        </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-    </header>
+            <ul class="auth-nav list">
+              <li class="nav-items">
+                  <a class="nav-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+               </li>
+               <li class="nav-items">
+                  <a class="nav-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+               </li>
+            </ul>
+        </div>
+      </header>
 
-    <!-- Button -->
+    <!-- Portflio page button -->
 
     <main>
-      <section>
-        <h1 hidden>portfolio</h1>
-        <ul class="button-pt list">
-          <li><button class="button-pt primary">Все</button></li>
-          <li><button class="button-pt secondary">Веб-сайт</button></li>
-          <li><button class="button-pt secondary">Приложение</button></li>
-          <li><button class="button-pt secondary">Дизайн</button></li>
-          <li><button class="button-pt secondary">Маркетинг</button></li>
+      <section class="portfolio">
+        <div class="container">
+        <h1 class="portfolio-title" hidden>Our projects</h1>
+        <ul class="portfolio-list list">
+          <li class="cards"><button class="pt-button primary">Все</button></li>
+          <li class="cards"><button class="pt-button">Веб-сайты</button></li>
+          <li class="cards"><button class="pt-button">Приложение</button></li>
+          <li class="cards"><button class="pt-button">Дизайн</button></li>
+          <li class="cards"><button class="pt-button">Маркетинг</button></li>
         </ul>
-        <ul>
-          <li class="container-bg list">
+        <ul class="portfolio-block list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_8.jpg"
-              alt="Написание кода"
+              alt="Технокряк"
               width="370"
               height="294"
             />
-            <h2 class="projects">Технокряк</h2>
-            <p class="description">Веб-сайт</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Технокряк</h2>
+            <p class="portfolio-description">Веб-сайт</p>
+            </div>
+          </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_9.jpg"
-              alt="Написание кода"
+              alt="Дизайн"
               width="370"
               height="294"
             />
-            <h2 class="projects">
-              Постер <span lang="en">New Orlean vs Golden Star</span>
-            </h2>
-            <p class="description">Дизайн</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+            <p class="portfolio-description">Дизайн</p>
+            </div>
+            </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_10.jpg"
-              alt="Написание кода"
+              alt="Приложение"
               width="370"
               height="294"
             />
-            <h2 class="projects">Ресторан <span lang="en">Seafood</span></h2>
-            <p class="description">Приложение</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Ресторан <span lang="en">Seafood</span></h2>
+            <p class="portfolio-description">Приложение</p>
+            </div>
+            </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_11.jpg"
-              alt="Написание кода"
+              alt="Маркетинг"
               width="370"
               height="294"
             />
-            <h2 class="projects">Проект <span lang="en">Prime</span></h2>
-            <p class="description">Маркетинг</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Проект <span lang="en">Prime</span></h2>
+            <p class="portfolio-description">Маркетинг</p>
+            </div>
+            </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_12.jpg"
-              alt="Написание кода"
+              alt="Приложение"
               width="370"
               height="294"
             />
-            <h2 class="projects">Проект <span lang="en">Boxes</span></h2>
-            <p class="description">Приложение</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Проект <span lang="en">Boxes</span></h2>
+            <p class="portfolio-description">Приложение</p>
+            </div>
+            </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_13.jpg"
-              alt="Написание кода"
+              alt="Веб-сайт"
               width="370"
               height="294"
             />
-            <h2 class="projects" lang="en">Inspiration has no Borders</h2>
-            <p class="description">Веб-сайт</p>
+            <div class="text">
+            <h2 class="portfolio-projects" lang="en">Inspiration has no Borders</h2>
+            <p class="portfolio-description">Веб-сайт</p>
+            </div>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_14.jpg"
-              alt="Написание кода"
+              alt="Дизайн"
               width="370"
               height="294"
             />
-            <h2 class="projects">
-              Издание <span lang="en">Limited Edition</span>
-            </h2>
-            <p class="description">Дизайн</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Издание <span lang="en">Limited Edition</span></h2>
+            <p class="portfolio-description">Дизайн</p>
+            </div>
+            </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_15.jpg"
-              alt="Написание кода"
+              alt="Маркетинг"
               width="370"
               height="294"
             />
-            <h2 class="projects">Проект <span lang="en">LAB</span></h2>
-            <p class="description">Маркетинг</p>
+            <div class="text">
+            <h2 class="portfolio-projects">Проект <span lang="en">LAB</span></h2>
+            <p class="portfolio-description">Маркетинг</p>
+            </div>
+            </a>
           </li>
-          <li class="container-bg list">
+          <li class="portfolio-item">
+            <a class="portfolio-link" href="#">
             <img
               src="images/Squoosh_16.jpg"
-              alt="Написание кода"
+              alt="Приложение"
               width="370"
               height="294"
             />
-            <h2 class="projects" lang="en">Growing Business</h2>
-            <p class="description">Приложение</p>
+            <div class="text">
+            <h2 class="portfolio-projects" lang="en">Growing Business</h2>
+            <p class="portfolio-description">Приложение</p>
+            </div>
+            </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
-    <!-- footer -->
+    <!-- Footer portfolio -->
 
-    <footer class="section">
-      <a class="link" lang="en" href="/"
-        >Web<span class="link-footer">Studio</span></a
-      >
-      <address>
-        <ul class="adrees">
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li>
-            <a class="contacts" href="mailto:info@example.com"
-              >info@example.com</a
+      <footer class="footer">
+         <div class="container">
+            <a class="logo" href="index.html" lang="en" aria-label="Логотип футера"
+               >Web<span class="logo-accent-white">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="contacts" href="tel:+380991111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-    </footer>
-  </body>
+            <address>
+               <ul class="list">
+                 <li class="footer-item">
+                  <a class="footer-addrees">г. Киев, пр-т Леси Украинки, 26</li>
+                  <li class="footer-item">
+                     <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a>
+                  </li>
+                  <li class="footer-item">
+                     <a class="footer-contacts" href="tel:+380991111111"
+                        >+38 096 111 11 11</a
+                     >
+                  </li>
+               </ul>
+            </address>
+         </div>
+      </footer>
+   </body>
 </html>
