@@ -1,198 +1,227 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      />
+      <link rel="stylesheet" href="./css/styles.css" />
+   </head>
 
-  <!-- Top line bg -->
+   <!-- Header -->
 
-  <body class="body">
-    <header>
-      <a class="link" lang="en" href="./index.html"
-        >Web<span class="link-accent">Studio</span></a
-      >
-      <nav>
-        <ul class="site-nav list">
-          <li><a class="link-current" href="./index.html">Студия</a></li>
-          <li>
-            <a class="link-secondary" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li><a class="link-secondary" href="">Контакты</a></li>
-        </ul>
-      </nav>
+   <body class="body">
+      <header class="header">
+        <div class="container">
+         <nav class="main-nav">
+            <a class="logo" href="./index.html" lang="en" aria-label="Главный логотип">
+              Web<span class="logo-accent">Studio</span>
+              </a>
+            <ul class="list">
+               <li class="nav-item">
+                  <a class="nav-link current" href="./index.html">Студия</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html"
+                     >Портфолио</a
+                  >
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="">Контакты</a>
+               </li>
+            </ul>
+         </nav>
 
-      <!-- nav -->
+            <!-- Link -->
 
-      <ul class="auth-nav list">
-        <li>
-          <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
-        </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-    </header>
+            <ul class="auth-nav list">
+              <li class="nav-items">
+                  <a class="nav-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+               </li>
+               <li class="nav-items">
+                  <a class="nav-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+               </li>
+            </ul>
+        </div>
+      </header>
 
-    <!-- Bg -->
+      <!-- Section hero -->
 
-    <main>
-      <section class="section">
-        <h1 class="section-title">Эффективные решения для вашего бизнеса</h1>
-        <input class="button" type="button" value="Заказать услугу" />
-      </section>
+      <main>
+         <section class="hero">
+            <div class="container">
+               <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+               <button class="hero-button" type="button">Заказать услугу</button>
+            </div>
+         </section>
 
-      <!-- Bg-2 -->
+         <!-- Features -->
 
-      <section class="feature">
-        <h2 hidden>Features</h2>
-        <ul class="list">
-          <!-- Feature 1 -->
-          <li>
-            <h3 class="feature-text">Внимание к деталям</h3>
-            <p class="feature-paragraph">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <!-- Feature 2  -->
-          <li>
-            <h3 class="feature-text">Пунктуальность</h3>
-            <p class="feature-paragraph">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <!-- Feature 3  -->
-          <li>
-            <h3 class="feature-text">Планирование</h3>
-            <p class="feature-paragraph">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <!-- Feature 4 -->
-          <li>
-            <h3 class="feature-text">Современные технологии</h3>
-            <p class="feature-paragraph">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </section>
+         <section class="features section">
+            <div class="container">
+               <h2 class="second-title hidden">Features</h2>
+               <ul class="list">
+                  <!-- Feature 1 -->
+                  <li class="features-items">
+                     <h3 class="features-title">Внимание к деталям</h3>
+                     <p class="features-text">
+                        Идейные соображения, а также начало повседневной работы
+                        по формированию позиции.
+                     </p>
+                  </li>
+                  <!-- Feature 2  -->
+                  <li class="features-items">
+                     <h3 class="features-title">Пунктуальность</h3>
+                     <p class="features-text">
+                        Задача организации, в особенности же рамки и место
+                        обучения кадров влечет за собой.
+                     </p>
+                  </li>
+                  <!-- Feature 3  -->
+                  <li class="features-items">
+                     <h3 class="features-title">Планирование</h3>
+                     <p class="features-text">
+                        Равным образом консультация с широким активом в
+                        значительной степени обуславливает.
+                     </p>
+                  </li>
+                  <!-- Feature 4 -->
+                  <li class="features-items">
+                     <h3 class="features-title">Современные технологии</h3>
+                     <p class="features-text">
+                        Значимость этих проблем настолько очевидна, что
+                        реализация плановых заданий.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+         </section>
 
-      <!-- What are we doing -->
+         <!-- What are we doing -->
 
-      <section>
-        <h2 class="box">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="images/Squoosh_1.jpg"
-              alt="Написание кода"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/Squoosh_2.jpg"
-              alt="Работа с телефоном"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/Squoosh_3.jpg"
-              alt="Работа с планшетом"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
+         <section class="working">
+           <div class="container">
+            <h2 class="working-process">Чем мы занимаемся</h2>
+            <ul class="list">
+               <li class="working-item">
+                  <img
+                     src="images/Squoosh_1.jpg"
+                     alt="Написание кода"
+                     width="370"
+                     height="294"
+                  />
+               </li>
+               <li class="working-item">
+                  <img
+                     src="images/Squoosh_2.jpg"
+                     alt="Работа с телефоном"
+                     width="370"
+                     height="294"
+                  />
+               </li>
+               <li class="working-item">
+                  <img
+                     src="images/Squoosh_3.jpg"
+                     alt="Работа с планшетом"
+                     width="370"
+                     height="294"
+                  />
+               </li>
+            </ul>
+           </div>
+         </section>
 
-      <!-- Section bg -->
+         <!-- Section team -->
 
-      <section class="team">
-        <h2 class="box">Наша команда</h2>
-        <ul class="employees list">
-          <li class="development-team">
-            <img
-              src="images/Squoosh_4.jpg"
-              alt="Product Designer"
-              width="270"
-              height="260"
-            />
-            <h3 class="workers">Игорь Демьяненко</h3>
-            <p class="direction" lang="en">Product Designer</p>
-          </li>
-          <li class="development-team">
-            <img
-              src="images/Squoosh_5.jpg"
-              alt="Frontend Developer"
-              width="270"
-              height="260"
-            />
-            <h3 class="workers">Ольга Репина</h3>
-            <p class="direction" lang="en">Frontend Developer</p>
-          </li>
-          <li class="development-team">
-            <img
-              src="images/Squoosh_6.jpg"
-              alt="Marketing"
-              width="270"
-              height="260"
-            />
-            <h3 class="workers">Николай Тарасов</h3>
-            <p class="direction" lang="en">Marketing</p>
-          </li>
-          <li class="development-team">
-            <img
-              src="images/Squoosh_7.jpg"
-              alt="UI Designer"
-              width="270"
-              height="260"
-            />
-            <h3 class="workers">Михаил Ермаков</h3>
-            <p class="direction" lang="en">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
+         <section class="team section">
+           <div class="container">
+            <h2 class="team-title">Наша команда</h2>
+            <ul class="list">
+               <li class="team-item">
+                 <img class="photo-team"
+                     src="images/Squoosh_4.jpg"
+                     alt="Product Designer"
+                     width="270"
+                     height="260"
+                  />
+                  <div class="team-items">
+                  <h3 class="employee">Игорь Демьяненко</h3>
+                  <p class="working-position" lang="en">Product Designer</p>
+                 </div>
+               </li>
+               <li class="team-item">
+                  <img class="photo-team"
+                     src="images/Squoosh_5.jpg"
+                     alt="Frontend Developer"
+                     width="270"
+                     height="260"
+                  />
+                  <div class="team-items">
+                  <h3 class="employee">Ольга Репина</h3>
+                  <p class="working-position" lang="en">Frontend Developer</p>
+                 </div>
+               </li>
+               <li class="team-item">
+                  <img class="photo-team"
+                     src="images/Squoosh_6.jpg"
+                     alt="Marketing"
+                     width="270"
+                     height="260"
+                  />
+                  <div class="team-items">
+                  <h3 class="employee">Николай Тарасов</h3>
+                  <p class="working-position" lang="en">Marketing</p>
+                 </div>
+               </li>
+               <li class="team-item">
+                  <img class="photo-team"
+                     src="images/Squoosh_7.jpg"
+                     alt="UI Designer"
+                     width="270"
+                     height="260"
+                  />
+                  <div class="team-items">
+                  <h3 class="employee">Михаил Ермаков</h3>
+                  <p class="working-position" lang="en">UI Designer</p>
+                 </div>
+               </li>
+            </ul>
+           </div>
+         </section>
+      </main>
 
-    <!-- footer -->
+      <!-- Footer -->
 
-    <footer class="section">
-      <a class="link" lang="en" href="/"
-        >Web<span class="link-footer">Studio</span></a
-      >
-      <address>
-        <ul class="adrees">
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li>
-            <a class="contacts" href="mailto:info@example.com"
-              >info@example.com</a
+      <footer class="footer">
+         <div class="container">
+            <a class="logo" href="index.html" lang="en" aria-label="Логотип футера"
+               >Web<span class="logo-accent-white">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="contacts" href="tel:+380991111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-    </footer>
-  </body>
+            <address>
+               <ul class="list">
+                 <li class="footer-item">
+                  <a class="footer-addrees">г. Киев, пр-т Леси Украинки, 26</li>
+                  <li class="footer-item">
+                     <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a>
+                  </li>
+                  <li class="footer-item">
+                     <a class="footer-contacts" href="tel:+380991111111"
+                        >+38 096 111 11 11</a
+                     >
+                  </li>
+               </ul>
+            </address>
+         </div>
+      </footer>
+   </body>
 </html>
